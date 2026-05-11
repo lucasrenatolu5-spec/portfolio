@@ -5,7 +5,6 @@
 
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import { skills } from '../../utils/data';
-import lucasPerfil from '../../assets/images/lucas-perfil.jpeg';
 import styles from './About.module.css';
 
 export function About() {
@@ -16,31 +15,6 @@ export function About() {
   return (
     <section id="sobre" className={styles.about}>
       <div className={`${styles.container} container`}>
-
-        {/* --- Lado da imagem --- */}
-        <div
-          ref={imageRef}
-          className={`${styles.imageSide} animate-on-scroll`}
-        >
-          {/* Moldura decorativa */}
-          <div className={styles.imageFrame}>
-            <img
-              src={lucasPerfil}
-              alt="Lucas Renato — foto de perfil"
-              className={styles.photo}
-              loading="lazy"
-            />
-            {/* Quadrado decorativo deslocado */}
-            <div className={styles.frameDecor} aria-hidden="true" />
-          </div>
-
-          {/* Card de experiência */}
-          <div className={styles.expCard}>
-            <span className={styles.expNumber}>+214</span>
-            <span className={styles.expText}>Contribuições no GitHub em 2025</span>
-          </div>
-        </div>
-
         {/* --- Lado do conteúdo --- */}
         <div
           ref={contentRef}
