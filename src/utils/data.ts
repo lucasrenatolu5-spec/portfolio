@@ -56,6 +56,14 @@ export const projects: Project[] = [
     tags: ['React', 'CSS Modules', 'TypeScript'],
     category: 'Institucional',
   },
+  {
+    id: 4,
+    title: 'Lumière Estética',
+    description: 'Site elegante para clínica de estética e beleza, com apresentação de serviços e agendamento online.',
+    url: 'https://lumiiere.vercel.app/',
+    tags: ['React', 'CSS Modules', 'TypeScript'],
+    category: 'Institucional',
+  },
 ];
 
 /** Serviços oferecidos */
