@@ -36,7 +36,7 @@ export const projects: Project[] = [
     id: 1,
     title: 'Daju Modas',
     description: 'E-commerce de moda feminina com catálogo de produtos, vitrine visual e contato direto via WhatsApp.',
-    url: 'https://projeto-daju-modas.vercel.app/',
+    url: 'https://dajumodass.vercel.app/',
     tags: ['React', 'CSS', 'Responsivo'],
     category: 'E-commerce',
   },
