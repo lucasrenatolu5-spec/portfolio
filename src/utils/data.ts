@@ -64,6 +64,14 @@ export const projects: Project[] = [
     tags: ['React', 'CSS Modules', 'TypeScript'],
     category: 'Institucional',
   },
+  {
+  id: 5,
+  title: 'Project Advogado',
+  description: 'Site profissional para escritório de advocacia com apresentação de serviços jurídicos e contato direto.',
+  url: 'https://projectadvogado.vercel.app/',
+  tags: ['React', 'CSS', 'Responsivo'],
+  category: 'Institucional',
+},
 ];
 
 /** Serviços oferecidos */
