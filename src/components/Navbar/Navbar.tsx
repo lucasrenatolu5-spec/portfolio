@@ -47,16 +47,22 @@ export function Navbar() {
 
   // Fecha o menu ao clicar em um link
   const handleLinkClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault();
-    setMenuOpen(false);
+  e.preventDefault();
+  setMenuOpen(false);
 
-    // Scroll suave até a seção
+  // Remove o fixed do body antes de navegar
+  document.body.style.overflow = '';
+  document.body.style.position = '';
+  document.body.style.width = '';
+
+  setTimeout(() => {
     const targetId = href.replace('#', '');
     const target = document.getElementById(targetId);
     if (target) {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-  }, []);
+  }, 300);
+}, []);
 
   // Bloqueia scroll do body quando menu mobile está aberto
 useEffect(() => {
