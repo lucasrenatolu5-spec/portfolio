@@ -155,13 +155,12 @@
 .mobileMenu {
   position: fixed;
   inset: 0;
-  background: rgba(5, 13, 26, 0.98);
-  backdrop-filter: blur(20px);
+  background: rgba(5, 13, 26, 0.99);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 1050;
+  z-index: 9999;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--transition-base);
