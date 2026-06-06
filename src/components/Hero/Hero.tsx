@@ -184,8 +184,8 @@ export function Hero() {
           {/* Estatísticas rápidas */}
           <div className={styles.stats}>
             <div className={styles.stat}>
-              <span className={styles.statNumber}>3+</span>
-              <span className={styles.statLabel}>Projetos entregues</span>
+              <span className={styles.statNumber}>⚡</span>
+              <span className={styles.statLabel}>Entrega rápida</span>
             </div>
             <div className={styles.statDivider} aria-hidden="true" />
             <div className={styles.stat}>
