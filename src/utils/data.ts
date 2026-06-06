@@ -52,7 +52,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Dental Clinic',
     description: 'Site profissional para clínica odontológica com seções de serviços, equipe e agendamento online.',
-    url: 'https://dental-clinic-two-beryl.vercel.app/',
+    url: 'https://deentalclinic.vercel.app/',
     tags: ['React', 'CSS Modules', 'TypeScript'],
     category: 'Institucional',
   },
