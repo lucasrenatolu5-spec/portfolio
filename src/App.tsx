@@ -12,6 +12,7 @@ import { Projects } from './components/Projects/Projects';
 import { Contact }  from './components/Contact/Contact';
 import { Footer }   from './components/Footer/Footer';
 import styles from './App.module.css';
+import { Diferenciais } from './components/Diferenciais/Diferenciais';
 
 function App() {
   return (
@@ -22,11 +23,12 @@ function App() {
       {/* Conteúdo principal — âncoras para navegação */}
       <main>
         <Hero />
+        <Diferenciais />
         <About />
         <Services />
         <Projects />
         <Contact />
-      </main>
+     </main>
 
       {/* Rodapé */}
       <Footer />
