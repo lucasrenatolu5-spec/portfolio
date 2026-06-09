@@ -32,8 +32,8 @@
   --color-border-hover: rgba(37, 99, 235, 0.4);
 
   /* Tipografia */
-  --font-display: 'Syne', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+  --font-body: 'Poppins', sans-serif;
 
   /* Espaçamentos */
   --section-padding: clamp(80px, 10vw, 120px);
