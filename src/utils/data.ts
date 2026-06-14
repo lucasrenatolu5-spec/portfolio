@@ -29,6 +29,14 @@ export const skills: Skill[] = [
  
 export const projects: Project[] = [
   {
+    id: 5,
+    title: 'Aurum Barber',
+    description: 'Barbearia precisava de presença digital para atrair novos clientes. Desenvolvi site moderno com apresentação dos serviços, galeria e agendamento direto via WhatsApp.',
+    url: 'https://aurumbarber.vercel.app/',
+    tags: ['React', 'CSS', 'Responsivo'],
+    category: 'Landing Page',
+  },
+  {
     id: 1,
     title: 'Dental Clinic',
     description: 'Clínica sem presença digital perdia pacientes para concorrentes online. Desenvolvi site institucional completo com seções de serviços, equipe e agendamento — resultado: mais contatos qualificados direto pelo site.',
@@ -63,6 +71,7 @@ export const projects: Project[] = [
 ];
  
 export const services: Service[] = [
+  
   {
     id: 1,
     icon: '🚀',
