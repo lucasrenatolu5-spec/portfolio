@@ -29,7 +29,15 @@ export const skills: Skill[] = [
  
 export const projects: Project[] = [
   {
-    id: 1,
+  id: 1,
+  title: 'Belle Forma',
+  description: 'Estúdio de estética precisava de um site elegante para apresentar seus serviços e captar clientes. Desenvolvi landing page moderna com galeria, serviços e agendamento via WhatsApp.',
+  url: 'https://belleforma.vercel.app/',
+  tags: ['React', 'CSS', 'Responsivo'],
+  category: 'Landing Page',
+},
+  {
+    id: 2,
     title: 'Dental Clinic',
     description: 'Clínica sem presença digital perdia pacientes para concorrentes online. Desenvolvi site institucional completo com seções de serviços, equipe e agendamento — resultado: mais contatos qualificados direto pelo site.',
     url: 'https://deentalclinic.vercel.app/',
@@ -37,7 +45,7 @@ export const projects: Project[] = [
     category: 'Institucional',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Project Advogado',
     description: 'Escritório de advocacia precisava transmitir credibilidade e profissionalismo online. Criei site sóbrio e direto com apresentação dos serviços jurídicos e CTA claro para captação de clientes.',
     url: 'https://projectadvogado.vercel.app/',
@@ -45,7 +53,7 @@ export const projects: Project[] = [
     category: 'Institucional',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Dolce Femme',
     description: 'Loja física sem vendas online perdia clientes para o digital. Criei vitrine virtual com catálogo de produtos e botão de compra direto via WhatsApp — facilitando vendas pelo celular.',
     url: 'https://dolcefemme.vercel.app/',
@@ -53,7 +61,7 @@ export const projects: Project[] = [
     category: 'E-commerce',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Lash Designer',
     description: 'Profissional de cílios dependia só do Instagram para captar clientes. Desenvolvi catálogo digital elegante com galeria de serviços e agendamento — gerando mais clientes com presença própria.',
     url: 'https://catalogolash.vercel.app/',
