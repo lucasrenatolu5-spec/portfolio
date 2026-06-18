@@ -46,15 +46,15 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Daju Modas',
+    title: 'Dolce Femme',
     description: 'Loja física sem vendas online perdia clientes para o digital. Criei vitrine virtual com catálogo de produtos e botão de compra direto via WhatsApp — facilitando vendas pelo celular.',
-    url: 'https://dajumodass.vercel.app/',
+    url: 'https://dolcefemme.vercel.app/',
     tags: ['React', 'CSS', 'Responsivo'],
     category: 'E-commerce',
   },
   {
     id: 4,
-    title: 'Catálogo Lash',
+    title: 'Lash Designer',
     description: 'Profissional de cílios dependia só do Instagram para captar clientes. Desenvolvi catálogo digital elegante com galeria de serviços e agendamento — gerando mais clientes com presença própria.',
     url: 'https://catalogolash.vercel.app/',
     tags: ['HTML', 'CSS', 'JavaScript'],
