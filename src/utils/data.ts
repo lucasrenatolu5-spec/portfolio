@@ -64,8 +64,8 @@ export const projects: Project[] = [
     id: 5,
     title: 'Lash Designer',
     description: 'Profissional de cílios dependia só do Instagram para captar clientes. Desenvolvi catálogo digital elegante com galeria de serviços e agendamento — gerando mais clientes com presença própria.',
-    url: 'https://catalogolash.vercel.app/',
-    tags: ['HTML', 'CSS', 'JavaScript'],
+    url: 'https://lashsoft.vercel.app/',
+    tags: ['React', 'CSS', 'TypeScript'],
     category: 'Landing Page',
   },
 ];
